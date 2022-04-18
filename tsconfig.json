@@ -1,0 +1,30 @@
+
+{
+ "compilerOptions": {
+   "strictBindCallApply": true,
+   "useUnknownInCatchVariables": true,
+   "strictPropertyInitialization": true,
+   "strictFunctionTypes": true,
+   "noUncheckedIndexedAccess": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "importHelpers": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "declaration": true,
+    "declarationMap": true,
+    "target": "es2020",
+    "module": "esnext",
+    "strict": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+  },
+  "exclude": ["build", "dist", "node_modules"],
+  "include": [ "src/**/*.ts"]
+}
